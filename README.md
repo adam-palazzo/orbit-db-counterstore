@@ -2,21 +2,25 @@
 
 [![npm version](https://badge.fury.io/js/orbit-db-counterstore.svg)](https://badge.fury.io/js/orbit-db-counterstore)
 
+> Counters database for OrbitDB
+
 A simple counters database. Useful for example counting events separate from data.
 
-Used in [orbit-db](https://github.com/haadcode/orbit-db).
+Used in [orbit-db](https://github.com/orbitdb/orbit-db).
 
 ## Table of Contents
 
 - [Install](#install)
 - [Usage](#usage)
 - [API](#api)
-- [Contributing](#contributing)
+- [Contribute](#contribute)
+  - [Linting](#linting)
 - [License](#license)
 
 ## Install
-```
-npm install orbit-db ipfs
+
+```sh
+$ npm install orbit-db ipfs
 ```
 
 ## Usage
@@ -58,11 +62,23 @@ See [example/index.html](https://github.com/haadcode/orbit-db-counterstore/blob/
 
 ## API
 
-See [orbit-db's API Documenations](https://github.com/haadcode/orbit-db/blob/master/API.md#countername) for full details.
+See [OrbitDB's API Documenations](https://github.com/haadcode/orbit-db/blob/master/API.md#countername) for full details.
 
-## Contributing
+## Contribute
 
-See [orbit-db's contributing guideline](https://github.com/haadcode/orbit-db#contributing).
+Please, feel free to contribute! Take a look at [the issues](https://github.com/orbitdb/orbit-db-identity-provider/issues), and comment on an existing issue or create a new one if you have questions, bugs, or suggestions. For larger PRs, open an issue first if you could - drive-by PRs are also welcomed.
+
+Please abide by the [Code of Conduct](CODE_OF_CONDUCT.md). For more on contributing to OrbitDB, check out the docs in [orbitdb/welcome](https://github.com/orbitdb/welcome).
+
+See [OrbitDB's contributing guideline](https://github.com/haadcode/orbit-db#contributing).
+
+### Linting
+
+Please use [`standard`](https://standardjs.com). To check,
+
+```sh
+$ npm run lint
+```
 
 ## License
 

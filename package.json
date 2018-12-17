@@ -1,15 +1,26 @@
 {
   "name": "orbit-db-counterstore",
   "version": "1.4.0",
-  "description": "Counter store for orbit-db",
+  "description": "Counter store for OrbitDB",
   "main": "src/CounterStore.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
   },
   "author": "Haad",
   "license": "MIT",
+  "homepage": "https://github.com/orbitdb/orbit-db-counterstore",
+  "bugs": "https://github.com/orbitdb/orbit-db-counterstore/issues",
   "dependencies": {
     "crdts": "~0.1.2",
     "orbit-db-store": "github:orbitdb/orbit-db-store"
+  },
+  "contributors": [
+    "haadcode https://github.com/haadcode", "Jerome Bernard (https://github.com/jeje)", "Richard Littauer (https://github.com/RichardLitt)", "shamb0t (https://github.com/shamb0t)"
+  ],
+  "standard": {
+    "env": [
+      "mocha"
+    ]
   }
 }
